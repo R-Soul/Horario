@@ -7,17 +7,16 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Horario.Domain.Entities
+namespace Horario.Domain
 {
     using System;
     using System.Collections.Generic;
     
-    public partial class sysdiagram
+    public partial class Carrera_Dica
     {
-        public string name { get; set; }
-        public int principal_id { get; set; }
-        public int diagram_id { get; set; }
-        public Nullable<int> version { get; set; }
-        public byte[] definition { get; set; }
+        public string Nomina { get; set; }
+        public string Carrera { get; set; }
+    
+        public virtual Dica Dica { get; set; }
     }
 }

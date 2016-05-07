@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'C:\Users\luise\Source\Repos\Horario de Dicas\Horario\Horario.Domain\Entities\DBHorario.edmx'. 
+﻿// T4 code generation is enabled for model 'C:\Users\Luis\Source\Repos\Testing\Horario\Horario.Domain\DBHorario.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.

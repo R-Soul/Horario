@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Horario.Domain.Entities
+namespace Horario.Domain
 {
     using System;
     using System.Collections.Generic;

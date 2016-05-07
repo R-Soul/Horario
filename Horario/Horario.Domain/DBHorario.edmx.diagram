@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f95ec45e35a34b5ba2069c67ca60c146" Name="Diagram1">
+        <EntityTypeShape EntityType="miSisicidiDBModel.Cita" Width="1.5" PointX="5.625" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="miSisicidiDBModel.Dica" Width="1.5" PointX="1.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="miSisicidiDBModel.Horario_Ocupado" Width="1.5" PointX="5.625" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="miSisicidiDBModel.Persona" Width="1.5" PointX="7.875" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="miSisicidiDBModel.sysdiagram" Width="1.5" PointX="9.25" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="miSisicidiDBModel.Carrera_Dica" Width="1.5" PointX="2.625" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="miSisicidiDBModel.FK_Cita_Dica" ManuallyRouted="false" />
+        <AssociationConnector Association="miSisicidiDBModel.FK_Carrera_Dica_Dica" ManuallyRouted="false" />
+        <AssociationConnector Association="miSisicidiDBModel.FK_Horario_Ocupado_Dica" ManuallyRouted="false" />
+        <AssociationConnector Association="miSisicidiDBModel.Persona_Cita" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
